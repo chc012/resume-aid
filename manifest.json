@@ -22,7 +22,7 @@
 
     "action": {
         "default_icon": "icons/TreeHacks-white-19.png",
-        "default_title": "Cal to Butt",
+        "default_title": "Resume Aid",
         "default_popup": "src/popup.html"
     },
     "content_scripts": [

@@ -16,6 +16,8 @@ for (var i = 0; i < elements.length; i++) {
     for (var j = 0; j < element.childNodes.length; j++) {
         var node = element.childNodes[j];
 
+        console.log(node)
+
         if (node.nodeType === 3) {
             var text = node.nodeValue;
             var replacedText = text.replace(/cal/gi, "butt"); // replaces "cal," "Cal", etc. with "butt"
